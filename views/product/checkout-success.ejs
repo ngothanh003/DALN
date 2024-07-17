@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= pageTitle %></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card text-center">
+      <div class="card-header">
+        <h2>Checkout Success!</h2>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Thank you for your purchase. Here is your QR code:</p>
+        <img src="<%= qrCodeUrl %>" alt="QR Code" class="img-fluid mb-3" style="max-width: 200px;">
+      </div>
+      <a href="/" class="btn btn-primary mt-3">Return to Home</a>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
